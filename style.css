@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 0%;
+    width: 40%;
+    height: 40%;
+    border: solid white;
+    border-radius: 50%;
+
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    cursor: pointer;
+
+
+
+
+
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 34px;
+
+
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a :hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+
+}
+
+.background {
+    background: rgba(0, 0,0,0.7) url('../all/raj.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.secondhalfcomp {
+    width: 150px;
+    height: 150px;
+
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+   
+     margin: auto;
+      height: 80%;
+
+
+
+}
+.firstHalf{
+    justify-content: center;
+    align-items: center;
+ margin-left: 10%;
+    width: 80%;
+    display: flex;
+     flex-direction: column;
+}
+.secondHalf{
+    width: 80%;
+    
+}
+.secondHalf img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text-small{
+    font-size: 16px;
+    font-family: 'Bad Script', cursive;
+     font-family: 'Tillana', cursive;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 5px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 17px;
+      cursor:  pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+
+
+
+}
+.section{
+     height: 700px;
+    padding: 111px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    
+}
+.imageFluid{
+    height: 260PX;
+    width: 389PX;
+}
+.paras{
+    padding: 65px;
+}
+.Left{
+    flex-direction: row-reverse;
+}
+
+
+   
